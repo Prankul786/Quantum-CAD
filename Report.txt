@@ -1,0 +1,27 @@
+EE677 Project: Quantum CAD
+-------------------------------------------------
+Savaliya Abhishek (21D070065)
+Bhavik Yadav (21D070090)
+Simran Singh (21D070073)
+Gawali Mukta (21D070028)
+-------------------------------------------------
+
+--> This Zip folder contains two .py files and one test file
+      (i) Quantum_CAD.py :main code for synthesis of the circuit from TT
+      (ii) Reversible_from_tt.py:  Helper code in case you want to make your circuit reversible
+
+--> Directions to run
+     (i) store your truth table (reversible) in input.txt. In case your TT is not reversible, you can make it using Reversible_from_tt.py. If it is already reversible then no need to run the code
+     (ii) run Quantum_CAD.py to get final Quantum circuit description
+
+--> Input.txt looks like this:
+1 1 1 1 0 0 0 0
+0 1 1 0 0 0 1 1
+0 0 1 1 0 1 0 1
+
+each row corresponds one bit of output, while each column corresponds input bits. i.e. here first column corresponds to 000, second to 001 and so on
+
+
+--> Declaration
+      (i) We have not referred any GitHub repo or online implementations for this project. This code is completely written by our team. 
+      (ii) Tools like chatGPT were used only to refine or optimise certain functions but most of the functions were written by team members only.
